@@ -1,0 +1,14 @@
+.sub-title {
+	font-size: 15pt;
+}
+
+#menu {
+	background-color: orange;
+}
+
+.navbar-header .link-style{
+	text-decoration: none;
+	color: white;
+	font-size: 14pt;
+	padding: 20px;
+}
