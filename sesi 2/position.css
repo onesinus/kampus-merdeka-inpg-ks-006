@@ -1,0 +1,16 @@
+.kotak {
+	height: 100px;
+	width: 100px;
+	border: 1px dotted black;
+}
+
+/* relative, absolute, fixed  */
+
+.kotak-2 {
+	position: fixed;
+	right: 0;
+	top: 0;
+/*	right: ;
+	top: ;
+	bottom*/: ;
+}

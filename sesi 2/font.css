@@ -1,0 +1,34 @@
+#dicoret {
+    text-decoration: line-through;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.garisbawah {
+    text-decoration: underline;
+}
+
+.arial {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif';
+
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+    background-color: red;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+a:active {
+    background-color: green;
+}
+
+a:visited {
+    background-color: black;
+}

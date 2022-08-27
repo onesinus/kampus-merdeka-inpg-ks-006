@@ -1,0 +1,26 @@
+.solid {
+    border-style: solid;
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+
+.double {
+    border-style: double;
+}
+
+.border-gue {
+    border: 5px double #ff0000;
+    padding: 5px;
+    width: 250px;
+}
+
+img {
+    width: 95%;
+}
