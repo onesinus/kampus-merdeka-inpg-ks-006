@@ -1,0 +1,25 @@
+BEGIN
+
+READ nama_mahasiswa, nilai_mahasiswa
+
+IF nilai_mahasiwa >= 60 THEN
+	DISPLAY nama_mahasiswa + " Lulus"
+ELSE
+	DISPLAY nama_mahasiswa + " Tidak Lulus"
+
+END
+
+=== Keliling lingkaran
+BEGIN
+
+READ r
+
+DECLARE phi WITH 3.14
+DECLARE result_value WITH empty value
+
+CALCULATE 2 TIMES r TIMES phi
+STORE calculation result TO result_value
+
+DISPLAY result_value
+
+END

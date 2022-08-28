@@ -1,0 +1,9 @@
+const nama_mahasiswa = "Bambang"
+const nilai_mahasiswa = 100
+
+if (nilai_mahasiswa >= 60) {
+	console.log(nama_mahasiswa + " Lulus")
+}
+else{
+	console.log(nama_mahasiswa + " Tidak Lulus")
+}
