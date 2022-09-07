@@ -29,3 +29,13 @@
 // }
 
 // || (baca: OR / ATAU) => salah satu true maka hasilnya true
+
+const age = 18
+const driving_license_type = "Car"
+if (age > 17) {
+    if (driving_license_type === "Car") {
+        console.log("Anda butuh sim A")
+    } else {
+        console.log("Anda bukan sim A")
+    }
+}
