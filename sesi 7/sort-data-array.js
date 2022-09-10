@@ -14,3 +14,7 @@ umur.sort(function (a, b) {
 const indomie = ["Ayam bawang", "Kari Ayam", "Soto"]
 indomie.sort()
 console.log(indomie)
+
+const angka = [7, 3, 1, 4, 73, 21]
+angka.sort((a, b) => a - b)
+console.log(angka)
