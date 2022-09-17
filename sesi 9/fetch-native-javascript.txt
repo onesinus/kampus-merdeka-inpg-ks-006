@@ -10,3 +10,16 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
 fetch("https://jsonplaceholder.typicode.com/comments")
     .then((response) => response.json())
     .then((data) => console.log(data));
+
+// CATCH: MENANGKAP ERROR / MELAKUKAN SESUATU KETIKA ADA ERROR
+// contoh fetch dengan error handling (catch)
+fetch("https://blegedes")
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch(err => console.log("Error nih boss...", err))
+
+// alert ketika ada error
+fetch("https://jagungwoi")
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch(err => alert(err))
