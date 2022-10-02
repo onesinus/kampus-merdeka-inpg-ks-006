@@ -1,0 +1,26 @@
+// get data user
+[
+    { "id": 1, "nama": "bambang" },
+    { "id": 2, "nama": "udin" }
+]
+
+//get data postingan
+[
+    {
+        "postId": 1,
+        "userId": 1,
+        "post": "lorem ipsum dolor sit amet"
+    }
+]
+
+// async serial
+async function main() {
+    const users = await getUser()
+    const posts = getPosts(users)
+}
+
+// sync
+function main() {
+    const users = getUser()
+    const posts = getPosts(users)
+}

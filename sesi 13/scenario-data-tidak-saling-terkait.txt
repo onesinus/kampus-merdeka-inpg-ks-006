@@ -1,0 +1,25 @@
+// get data user
+[
+    { "id": 1, "nama": "bambang" },
+    { "id": 2, "nama": "udin" }
+]
+
+//get data barang
+[
+    {
+        "id": 1,
+        "name": "Mouse Mantap"
+    }
+]
+
+// async paralel (RECOMENDED)
+async function main() {
+    const users = getUser()
+    const barang = getBarang()
+}
+
+// sync
+function main() {
+    const users = getUser()
+    const barang = getBarang()
+}
