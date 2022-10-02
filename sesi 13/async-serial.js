@@ -28,12 +28,4 @@ async function asyncParalel() {
     await thirdPromise().then(response => console.log(response))
 }
 
-// ini kalau sync
-/*
-    function asyncParalel() {
-        firstPromise().then(response => console.log(response))
-        secondPromise().then(response => console.log(response))
-        thirdPromise().then(response => console.log(response))
-    }
-*/
 asyncParalel()
