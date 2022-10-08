@@ -1,0 +1,29 @@
+/* Versi while */
+function insertionSort(data) {
+    for (let i = 0; i < data.length; i++) {
+        let temp_data = data[i]
+        let j = i - 1
+        while (j >= 0 && data[j] > temp_data) {
+            // swap data
+            data[j + 1] = data[j]
+            j--
+        }
+        data[j + 1] = temp_data
+    }
+    console.log(data);
+    return data
+}
+
+// function insertionSort(data) {
+//     for (let i = 1; i < data.length; i++) {
+//         const temp_data = data[i]
+//         for (let j = i - 1; j >= 0; j--) {
+//             if (temp_data > data[j]) {
+//                 // logic swap (belom kelar)
+//             }
+//         }
+//     }
+//     console.log(data);
+//     return data
+// }
+insertionSort([4, 5, 2, 1, 0, 3]) // Expected Output: [0, 1, 2, 3, 4, 5]

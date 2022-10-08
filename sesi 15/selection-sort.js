@@ -19,6 +19,6 @@ function selectionSort(data) {
 }
 
 // Test Cases
-// selectionSort([4, 5, 2, 1, 0, 3]) //// Expected Output: [0, 1, 2, 3, 4, 5]
+// selectionSort([4, 5, 2, 1, 0, 3]) // Expected Output: [0, 1, 2, 3, 4, 5]
 // selectionSort([104, 94, 201, 43])
 selectionSort([27, 38, 4, 43, 9, 82, 10])
