@@ -1,3 +1,4 @@
+// Reference: https://visualgo.net/en/sorting?slide=1-2
 function selectionSort(data) {
     for (let i = 0; i < data.length; i++) {
         let idx_smallest_number = i
