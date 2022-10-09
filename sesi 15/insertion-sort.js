@@ -10,10 +10,10 @@
 //         }
 //         data[j + 1] = temp_data
 //     }
-//     console.log(data);
 //     return data
 // }
 
+/* Versi for */
 function insertionSort(data) {
     for (let i = 1; i < data.length; i++) {
         const temp_data = data[i]
