@@ -1,3 +1,12 @@
+// 1. data harus dalam keadaan berurutan
+// 2. Ketika data yang di cari sama dengan data tengah, maka kembalikan index data tengah
+// Jika data yang dicari tidak sama:
+// 3. Jika lebih kecil dari data tengah,maka akan mencari ke kiri 
+//    (sekumpulan data yang posisinya SEBELUM data tengah)
+// 4. Jika lebih besar dari data tengah, maka akan mencari ke kanan
+//    (sekumpulan data yang posisinya SESUDAH data tengah)
+
+
 function binarySearch(sortedData, dataToFind) {
     let lowest_index = 0
     let highest_index = sortedData.length - 1
