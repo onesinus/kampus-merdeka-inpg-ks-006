@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="name" placeholder="Name" />
+    <input id="age" placeholder="Age" />
+    <button onclick="saveToLocalstorage()">Save to localStorage</button>
+
+    <hr />
+
+    <button onclick="showDataFromLocalstorage()">Show data from localStorage</button>
+    <label id="display-name">[ Data from localstorage ]</label>
+    <script>
+        function saveToLocalstorage() {
+            const name = document.getElementById("name").value
+            const age = document.getElementById("age").value
+
+            localStorage.setItem("name", name)
+            localStorage.setItem("age", age)
+        }
+
+        function showDataFromLocalstorage() {
+            const name = localStorage.getItem("name")
+            const age = localStorage.getItem("age")
+
+            document.getElementById("display-name").innerText = `Nama anda: ${name}, Usia anda: ${age}`
+        }
+    </script>
+</body>
+
+</html>
